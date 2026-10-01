@@ -1,0 +1,78 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+ios/
+android/
+# ...but keep the native source of local Expo modules (these live under
+# modules/<name>/android and are real source, not prebuild output).
+!modules/**/android/
+!modules/**/android/**
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env.*
+!.env.example
+
+# typescript
+*.tsbuildinfo
+.vercel
+
+.rork
+
+.env
+rork-eslint.config.js
+
+# Local filming, drafts, and generated media; not part of the app source
+demo-backgrounds/
+demo-edit/
+problem-broll/
+thumbnail/
+voice-only/
+DEMO.md
+IOS_DEMO.md
+FILMING_GUIDE.md
+FILMING_CHECKLIST.md
+devpost-submission.md
+
+# Build artifacts inside the checked-in Android Expo module
+modules/**/android/.gradle/
+modules/**/android/build/
+plugins/ios/
+
+# Replit / agent state
+.local/
+
+# Debug logs & build output (never commit)
+*.log
+error.txt
+push_error.txt
+ts_errors.txt
+tsc_out.txt
+tsc_output*.txt

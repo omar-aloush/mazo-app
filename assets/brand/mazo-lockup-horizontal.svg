@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 360" width="1240" height="360">
+  <defs>
+    <radialGradient id="bg" cx="0.32" cy="0.22" r="0.95">
+      <stop offset="0" stop-color="#243528"/>
+      <stop offset="0.55" stop-color="#14201a"/>
+      <stop offset="1" stop-color="#0a0f0c"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8FB896" stop-opacity="0.36"/>
+      <stop offset="0.72" stop-color="#8FB896" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="face" cx="0.38" cy="0.30" r="0.66">
+      <stop offset="0" stop-color="#EFC9AC"/>
+      <stop offset="0.55" stop-color="#CE9070"/>
+      <stop offset="1" stop-color="#96573F"/>
+    </radialGradient>
+    <radialGradient id="spec" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="ic"><rect x="24" y="20" width="320" height="320" rx="72"/></clipPath>
+  </defs>
+  <g clip-path="url(#ic)">
+    <rect x="24" y="20" width="320" height="320" fill="url(#bg)"/>
+    <ellipse cx="184" cy="210" rx="150" ry="135" fill="url(#glow)"/>
+    <g transform="translate(184,180) scale(1.05) translate(-100,-100)">
+      <circle cx="100" cy="100" r="92" fill="url(#face)"/>
+      <ellipse cx="72" cy="64" rx="38" ry="25" fill="url(#spec)"/>
+      <path d="M50 76 Q67 67 85 74" fill="none" stroke="#241e1a" stroke-width="8" stroke-linecap="round"/>
+      <path d="M150 76 Q133 67 115 74" fill="none" stroke="#241e1a" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="68" cy="99" r="12" fill="#241e1a"/>
+      <circle cx="132" cy="99" r="12" fill="#241e1a"/>
+      <circle cx="63.5" cy="94.5" r="3.6" fill="#ffffff" opacity="0.85"/>
+      <circle cx="127.5" cy="94.5" r="3.6" fill="#ffffff" opacity="0.85"/>
+      <path d="M77 128 Q100 143 123 128" fill="none" stroke="#241e1a" stroke-width="9" stroke-linecap="round"/>
+    </g>
+  </g>
+  <text x="396" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="200" font-weight="600" fill="#ECE7DC">Mazō</text>
+</svg>
